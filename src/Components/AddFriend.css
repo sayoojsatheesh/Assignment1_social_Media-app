@@ -1,0 +1,91 @@
+.dropdown2 {
+  margin-top: 2rem;
+}
+
+.section {
+  background: linear-gradient(to right, rgb(0, rgb(0, 0, 0)), black);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/Addusser.avif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.in {
+  width: 35vw;
+  height: 40vh;
+  background-color: rgb(180, 0, 180);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  opacity: 0.98;
+}
+
+.dropdown {
+  display: flex;
+  margin-top: 2.5rem;
+  justify-content: space-around;
+  width: 30vw;
+}
+.togglebtn1 {
+  width: 10vw;
+}
+
+.togglebtn2 {
+  width: 10vw;
+}
+
+.tab {
+  background: linear-gradient(to right, rgb(156, 0, 156), rgb(180, 0, 180));
+  border-radius: 10px;
+  font-weight: bolder;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 251, 251);
+  border-top: none;
+  border-right: none;
+  width: 17.5vw;
+}
+
+.btnaddfriend {
+  width: 10vw;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(0, 148, 0), rgb(0, 214, 0));
+  outline: none;
+  border: none;
+  position: absolute;
+  bottom: 50px;
+  padding: 0.5rem 1rem;
+}
+
+.btnaddfriend:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px green;
+}
+
+
+@media (max-width:1000px){
+    .in{
+        width: 70vw;
+    }
+
+    .btnaddfriend{
+        width: 20vw;
+    }
+
+  .togglebtn1{
+      width:auto ;
+      margin-right: 1rem;
+  }
+  .togglebtn2{
+      width: auto;
+      margin-left: 1rem;
+  }
+}

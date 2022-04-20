@@ -1,0 +1,47 @@
+.topbtn {
+  width: 100vw;
+  background: linear-gradient(to right, rgb(51, 3, 51), rgb(99, 0, 99));
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+
+.switchtofriends {
+  width: 50vw;
+  background-color: rgb(66, 135, 245);
+  border: none;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.switchtofriends:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px purple;
+}
+
+.switchtofriends:focus{
+    box-shadow: 5px 5px 15px blue;
+}
+
+.switchuseradd {
+  width: 50vw;
+  background-color: rgb(180, 0, 180);
+  border: none;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.switchuseradd:focus{
+    box-shadow: 5px 5px 15px purple ;
+}
+
+.switchuseradd:hover {
+  cursor: pointer;
+  background-color: 0 0 10px purple;
+}
+
+@media (max-width: 1000px) {
+  .topbtn {
+    left: 265px;
+  }
+}

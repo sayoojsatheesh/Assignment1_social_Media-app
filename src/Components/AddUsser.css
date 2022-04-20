@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+.section1 {
+  background: linear-gradient(to right, rgb(0, rgb(0, 0, 0)), black);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/Addusser.avif);
+  background-size: cover;
+  background-position-x: center;
+  overflow:auto;
+}
+
+.form {
+  width: 35vw;
+  height: 40vh;
+  background-color: rgb(66, 135, 245);
+ border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.98;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.username {
+  width: 22vw;
+  height: 30px;
+  border-radius: 8px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.addfriend {
+  width: 22vw;
+  height: 30px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.btnadd {
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(240, 2, 2), rgb(255, 60, 60));
+  bottom: 50px;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  width: 150px;
+  margin-left: 4rem;
+}
+
+.btnadd:hover {
+  box-shadow: 0 0 10px rgb(250, 31, 31);
+  cursor: pointer;
+}
+
+.btntoggle {
+  width: 22vw;
+  margin-top: 1rem;
+  box-sizing: 5px;
+}
+
+.switchtoaddfriends {
+  background: linear-gradient(to right, rgb(156, 0, 156), rgb(180, 0, 180));
+  font-weight: bolder;
+  float: right;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 251, 251);
+  border-top: none;
+  border-right: none;
+  width: 17.5vw;
+}
+
+.switchtoaddfriend:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px purple;
+}
+
+.touseradd {
+  background: linear-gradient(to right, rgb(156, 0, 156), rgb(180, 0, 180));
+  font-weight: bolder;
+  float: right;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 251, 251);
+  border-top: none;
+  border-right: none;
+  width: 17.5vw;
+}
+
+@media (max-width: 1000px) {
+ .form{
+   width: auto;
+ }
+ .username{
+   width: auto;
+   margin-right: 1rem;
+   margin-left: 1rem;
+ }
+
+ .btnadd{
+   width: 120px;
+   margin-right: 1rem;
+ }
+}
